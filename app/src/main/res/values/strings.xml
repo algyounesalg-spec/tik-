@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TikTok Video Patcher</string>
+    <string name="analyze_video">Analyze Video</string>
+    <string name="select_video">Select Video</string>
+    <string name="no_video_selected">No video selected</string>
+    <string name="analyzing">Analyzing...</string>
+    <string name="analysis_complete">Analysis complete. Check Logcat for details.</string>
+    <string name="error_no_file">Error: No file selected</string>
+    <string name="error_analysis_failed">Error analyzing video: %s</string>
+</resources>

@@ -1,0 +1,156 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.tiktokvideopatcher"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Permissions for reading video files -->
+12    <uses-permission
+12-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:7:5-8:38
+13        android:name="android.permission.READ_EXTERNAL_STORAGE"
+13-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:7:22-77
+14        android:maxSdkVersion="32" />
+14-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:8:9-35
+15    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+15-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:9:5-10:32
+15-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:9:22-72
+16
+17    <permission
+17-->[androidx.core:core:1.12.0] /home/kali/.gradle/caches/transforms-3/f303815f9470f1d712859fb0b35a7f79/transformed/core-1.12.0/AndroidManifest.xml:22:5-24:47
+18        android:name="com.example.tiktokvideopatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.12.0] /home/kali/.gradle/caches/transforms-3/f303815f9470f1d712859fb0b35a7f79/transformed/core-1.12.0/AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.12.0] /home/kali/.gradle/caches/transforms-3/f303815f9470f1d712859fb0b35a7f79/transformed/core-1.12.0/AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.example.tiktokvideopatcher.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.12.0] /home/kali/.gradle/caches/transforms-3/f303815f9470f1d712859fb0b35a7f79/transformed/core-1.12.0/AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.12.0] /home/kali/.gradle/caches/transforms-3/f303815f9470f1d712859fb0b35a7f79/transformed/core-1.12.0/AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:12:5-34:19
+24        android:allowBackup="true"
+24-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:13:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.12.0] /home/kali/.gradle/caches/transforms-3/f303815f9470f1d712859fb0b35a7f79/transformed/core-1.12.0/AndroidManifest.xml:28:18-86
+26        android:dataExtractionRules="@xml/data_extraction_rules"
+26-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:14:9-65
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:fullBackupContent="@xml/backup_rules"
+29-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:15:9-54
+30        android:icon="@mipmap/ic_launcher"
+30-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:16:9-43
+31        android:label="@string/app_name"
+31-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:17:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:18:9-54
+33        android:supportsRtl="true"
+33-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:19:9-35
+34        android:theme="@style/Theme.TikTokVideoPatcher" >
+34-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:20:9-56
+35        <activity
+35-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:23:9-32:20
+36            android:name="com.example.tiktokvideopatcher.MainActivity"
+36-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:24:13-41
+37            android:exported="true"
+37-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:25:13-36
+38            android:label="@string/app_name"
+38-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:26:13-45
+39            android:theme="@style/Theme.TikTokVideoPatcher" >
+39-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:27:13-60
+40            <intent-filter>
+40-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:28:13-31:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:29:17-69
+41-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:29:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:30:17-77
+43-->/home/kali/TikTokVideoPatcher/app/src/main/AndroidManifest.xml:30:27-74
+44            </intent-filter>
+45        </activity>
+46        <activity
+46-->[androidx.compose.ui:ui-tooling-android:1.6.1] /home/kali/.gradle/caches/transforms-3/3d587e34095d27fc9d993fd0baf60b90/transformed/ui-tooling-release/AndroidManifest.xml:23:9-25:39
+47            android:name="androidx.compose.ui.tooling.PreviewActivity"
+47-->[androidx.compose.ui:ui-tooling-android:1.6.1] /home/kali/.gradle/caches/transforms-3/3d587e34095d27fc9d993fd0baf60b90/transformed/ui-tooling-release/AndroidManifest.xml:24:13-71
+48            android:exported="true" />
+48-->[androidx.compose.ui:ui-tooling-android:1.6.1] /home/kali/.gradle/caches/transforms-3/3d587e34095d27fc9d993fd0baf60b90/transformed/ui-tooling-release/AndroidManifest.xml:25:13-36
+49        <activity
+49-->[androidx.compose.ui:ui-test-manifest:1.6.1] /home/kali/.gradle/caches/transforms-3/921ce8cc492b40845475cd4d5e443f7a/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:23:9-25:39
+50            android:name="androidx.activity.ComponentActivity"
+50-->[androidx.compose.ui:ui-test-manifest:1.6.1] /home/kali/.gradle/caches/transforms-3/921ce8cc492b40845475cd4d5e443f7a/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:24:13-63
+51            android:exported="true" />
+51-->[androidx.compose.ui:ui-test-manifest:1.6.1] /home/kali/.gradle/caches/transforms-3/921ce8cc492b40845475cd4d5e443f7a/transformed/ui-test-manifest-1.6.1/AndroidManifest.xml:25:13-36
+52
+53        <provider
+53-->[androidx.emoji2:emoji2:1.3.0] /home/kali/.gradle/caches/transforms-3/1f05f1a640db3aa511e6a502480abcf1/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+54            android:name="androidx.startup.InitializationProvider"
+54-->[androidx.emoji2:emoji2:1.3.0] /home/kali/.gradle/caches/transforms-3/1f05f1a640db3aa511e6a502480abcf1/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+55            android:authorities="com.example.tiktokvideopatcher.androidx-startup"
+55-->[androidx.emoji2:emoji2:1.3.0] /home/kali/.gradle/caches/transforms-3/1f05f1a640db3aa511e6a502480abcf1/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+56            android:exported="false" >
+56-->[androidx.emoji2:emoji2:1.3.0] /home/kali/.gradle/caches/transforms-3/1f05f1a640db3aa511e6a502480abcf1/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+57            <meta-data
+57-->[androidx.emoji2:emoji2:1.3.0] /home/kali/.gradle/caches/transforms-3/1f05f1a640db3aa511e6a502480abcf1/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+58                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+58-->[androidx.emoji2:emoji2:1.3.0] /home/kali/.gradle/caches/transforms-3/1f05f1a640db3aa511e6a502480abcf1/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+59                android:value="androidx.startup" />
+59-->[androidx.emoji2:emoji2:1.3.0] /home/kali/.gradle/caches/transforms-3/1f05f1a640db3aa511e6a502480abcf1/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+60            <meta-data
+60-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/kali/.gradle/caches/transforms-3/de1e297b107f12b52914b6dabc732957/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+61-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/kali/.gradle/caches/transforms-3/de1e297b107f12b52914b6dabc732957/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+62                android:value="androidx.startup" />
+62-->[androidx.lifecycle:lifecycle-process:2.7.0] /home/kali/.gradle/caches/transforms-3/de1e297b107f12b52914b6dabc732957/transformed/lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+64-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+65                android:value="androidx.startup" />
+65-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+66        </provider>
+67
+68        <receiver
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+69            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+70            android:directBootAware="false"
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+71            android:enabled="true"
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+72            android:exported="true"
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+73            android:permission="android.permission.DUMP" >
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+74            <intent-filter>
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+75                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+76            </intent-filter>
+77            <intent-filter>
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+78                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+79            </intent-filter>
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+81                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+84                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] /home/kali/.gradle/caches/transforms-3/2a5cf7acceac09a311004ea7800396cb/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+85            </intent-filter>
+86        </receiver>
+87    </application>
+88
+89</manifest>

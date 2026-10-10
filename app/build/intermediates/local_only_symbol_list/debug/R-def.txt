@@ -1,0 +1,25 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color green
+color purple_200
+color purple_500
+color purple_700
+color red
+color teal_200
+color teal_700
+color white
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
+string analysis_complete
+string analyze_video
+string analyzing
+string app_name
+string error_analysis_failed
+string error_no_file
+string no_video_selected
+string select_video
+style Theme.TikTokVideoPatcher
+xml backup_rules
+xml data_extraction_rules
